@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    </head>
+    <body>
+       <div class="tampilan">        
+            <div class="display">
+                <p id="hasil">0</p>
+            </div>
+            <div class="baris-1">
+                <button id="br1-1" onclick="clear()">C</button>
+                <button id="br1-3" onclick="persen()">%</button>
+                <button id="br1-4" onclick="tmpNilai('/')">/</button>
+            </div>
+            <div class="baris-2">
+                <button id="br2-1" onclick="tmpNilai('7')">7</button>
+                <button id="br2-2" onclick="tmpNilai('8')">8</button>
+                <button id="br2-3" onclick="tmpNilai('9')">9</button>
+                <button id="br2-4" onclick="tmpNilai('*')">X</button>
+            </div>
+            <div class="baris-3">
+                <button id="br3-1" onclick="tmpNilai('4')">4</button>
+                <button id="br3-2" onclick="tmpNilai('5')">5</button>
+                <button id="br3-3" onclick="tmpNilai('6')">6</button>
+                <button id="br3-4" onclick="tmpNilai('-')">-</button>
+            </div>
+            <div class="baris-4">
+                <button id="br4-1" onclick="tmpNilai('1')">1</button>
+                <button id="br4-2" onclick="tmpNilai('2')">2</button>
+                <button id="br4-3" onclick="tmpNilai('3')">3</button>
+                <button id="br4-4" onclick="tmpNilai('+')">+</button>
+            </div>
+            <div class="baris-5">
+                <button id="br5-1" onclick="tmpNilai('0')">0</button>
+                <button id="br5-2" onclick="tmpNilai('.')">.</button>
+                <button id="br5-4" onclick="hasilAkhir()">=</button>
+            </div>
+        </div>
+        <script src="asset/javascript/script.js"></script>
+    </body>
+</html>
